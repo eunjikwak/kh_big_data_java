@@ -59,6 +59,7 @@ public class MemberInfo { // 필드와 메소드가 있음.
         System.out.println("나이 : " + age);
         System.out.println("성별 : " + genderStr[getGenderType()]);
         System.out.println("직업 : " + jobsStr[jobs]);
+
     }
 
 
