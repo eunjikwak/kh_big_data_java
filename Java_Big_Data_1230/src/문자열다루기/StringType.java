@@ -14,7 +14,7 @@ public class StringType {
         System.out.println(a.equalsIgnoreCase("HELLO"));//대소문자무시
         System.out.println(a == c);//문자열의 내용비교X , 문자열의 참조 ,즉 주소 비교
         System.out.println("======indexOf======");
-        // indexOf : 문자열엥 특정 문자 혹은 문자열이 시작되는 인덱스값 리턴
+        // indexOf : 문자열에 특정 문자 혹은 문자열이 시작되는 인덱스값 리턴
         String d = "Hello J Jav Java";
         System.out.println(d.indexOf("J"));
         System.out.println("======contains======");
