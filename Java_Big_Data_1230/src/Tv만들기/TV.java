@@ -1,5 +1,5 @@
 package Tv만들기;
-//Tv만들기
+//Tv 만들기
 public class TV {
 
     private  boolean isON; //전원 버튼 , 접근 제한자 private 설정 (같은 클래스내에서만 사용가능)
