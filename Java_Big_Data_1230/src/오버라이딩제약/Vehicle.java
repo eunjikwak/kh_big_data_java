@@ -33,7 +33,7 @@ class SportsCar extends Vehicle{
   }
   void infoCar(){
       System.out.println("이름 : " + name);
-      System.out.println("속도 : " + getSpeed());
+      System.out.println("속도 : " + speed);
       System.out.println("색상 : " + color);
       System.out.println("터보모드 : " + isTurbo);
   }

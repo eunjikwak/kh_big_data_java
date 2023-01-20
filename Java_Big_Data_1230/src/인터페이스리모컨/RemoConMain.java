@@ -25,5 +25,39 @@ public class RemoConMain {
 
         RemoteControl.changeBattery(); //인터페이스 소속의 메소드
 
+        //1회용 객체
+        RemoteControl remoteControl =new RemoteControl() {
+            int volume;
+            @Override
+            public void turnOn() {
+                System.out.println("플스 5 을 켭니다.");
+            }
+
+            @Override
+            public void turnOff() {
+                System.out.println("플스 5 을 끕니다.");
+            }
+
+            @Override
+            public void setVolume(int volume) {
+                if(volume > RemoteControl.MAX_VOLUME){
+                    this.volume = RemoteControl.MAX_VOLUME;
+                } else if(volume < RemoteControl.MIN_VOLUME){
+                    this.volume = RemoteControl.MIN_VOLUME;
+                } else {
+                    this.volume = volume;
+                }
+
+                System.out.print("현재 플스5 볼륨 : " + this.volume);
+            }
+
+            @Override
+            public void getInfo() {
+
+            }
+        };//구현부여서 마지막에 ;세미콜론 넣어줘야함
+        remoteControl.turnOn();
+        remoteControl.turnOff();
+
     }
 }
