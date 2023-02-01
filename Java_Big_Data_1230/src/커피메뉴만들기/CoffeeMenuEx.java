@@ -17,7 +17,7 @@ public class CoffeeMenuEx {
 
     void makeMenu() {
         map.put("Americano", new MenuInfo("Americano", 2500,"Coffee","기본커피 입니다."));
-        map.put("Espresso", new MenuInfo("Espresso", 3000,"Coffee","진한커피 입니다."));
+        map.put("Espresso", new MenuInfo("Espresso", 1000,"Coffee","진한커피 입니다."));
         map.put("Latte", new MenuInfo("Latte", 4500,"Coffee","우유가 포함된 커피 입니다."));
 
     }
